@@ -11,7 +11,21 @@
 <body>
   <div class="container">
     <h1>🧊 Fillr</h1>
-    <p>Your Icebreaker &amp; Conversation Starter</p>
+    <p>Your Icebreaker & Conversation Starter</p>
+    <!-- Context dropdown -->
+    <label for="contextSelect"><strong>Choose a context:</strong></label>
+    <select id="contextSelect">
+      <option value="team">Team Meeting</option>
+      <option value="classroom">Classroom</option>
+      <option value="game">Game Night</option>
+    </select>
+    <!-- Persona dropdown -->
+    <label for="personaSelect" style="margin-left:1em"><strong>Choose a persona:</strong></label>
+    <select id="personaSelect">
+      <option value="friendly">Friendly coworker</option>
+      <option value="sassy">Sassy intern</option>
+      <option value="professor">Professor bot</option>
+    </select>
     <!-- Icebreaker buttons -->
     <div id="icebreaker-buttons">
       <button type="button" id="iceBtn">
